@@ -442,3 +442,8 @@ By 九世 2019/6/5
 详情看文件夹里面的README.md
 
 By 九世 2019/6/14
+
+
+weblogic_poc利用是针对weblogic的CVE-2019-2725编号，进行批量的工具，具体看文件夹内的README.md
+
+By 九世 2019/6/16
