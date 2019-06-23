@@ -23,14 +23,29 @@ def get_windows_login():
         elif i=='Windows PowerShell.evtx':
             log_dict['powershell']='C:\\Windows\\System32\\winevt\\Logs\\'+i
 
-    for y in log_dict.keys():
-        print('[+] windows日志:{}'.format(y))
-        with open(log_dict[y],'r') as f:
-            with contextlib.closing(mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ)) as buf: #内存映射处理
-                fh=FileHeader(buf,0) #将二进制数据变成可视化xmla
-                a=evtx_file_xml_view(fh)
-                for xml,rec in a:
-                    get_id(xml,conf.config.id)
+    if conf.config.login_name=='':
+        print('[+] 没有设置日志过滤，默认读取全部日志')
+        for y in log_dict.keys():
+            if conf.config.login_id != '':
+                print('[+] 启用日志过滤')
+            print('[+] windows日志:{}'.format(y))
+            with open(log_dict[y],'r') as f:
+                with contextlib.closing(mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ)) as buf: #内存映射处理
+                    fh=FileHeader(buf,0) #将二进制数据变成可视化xml
+                    a=evtx_file_xml_view(fh)
+                    for xml,rec in a:
+                        get_id(xml,conf.config.id)
+    else:
+        print('[+] 设置了日志过滤，只读日志:{}'.format(conf.config.login_name))
+        if conf.config.login_id != '':
+            print('[+] 启用日志过滤')
+        print('[+] windows日志:{}'.format(conf.config.login_name))
+        with open(log_dict[conf.config.login_name], 'r') as f:
+            with contextlib.closing(mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)) as buf:  # 内存映射处理
+                fh = FileHeader(buf, 0)  # 将二进制数据变成可视化xml
+                a = evtx_file_xml_view(fh)
+                for xml, rec in a:
+                    get_id(xml, conf.config.id)
 
 def get_id(xml,id):
         global EventData
@@ -46,8 +61,16 @@ def get_id(xml,id):
             eventid=str(ids[s]).replace('<EventID Qualifiers="">','').replace('</EventID>','')
             event_time=str(times[s]).replace('<TimeCreated SystemTime=','').replace('"','').replace('>','')
             data = 'ID:{} 时间:{} EventData:{}'.format(eventid, event_time,EventData)
-            if eventid in id:
-                data = 'ID:{} 时间:{} 事件:{} EventData:{}'.format(eventid, event_time, id[eventid],EventData)
-                print(data)
+            if conf.config.login_id!='':
+                if eventid==conf.config.login_id:
+                    if eventid in id:
+                        data = 'ID:{} 时间:{} 事件:{} EventData:{}'.format(eventid, event_time, id[eventid], EventData)
+                        print(data)
+                    else:
+                        print(data)
             else:
-                print(data)
+                if eventid in id:
+                    data = 'ID:{} 时间:{} 事件:{} EventData:{}'.format(eventid, event_time, id[eventid],EventData)
+                    print(data)
+                else:
+                    print(data)
