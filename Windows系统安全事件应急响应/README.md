@@ -11,6 +11,10 @@
 
 参考文章：https://xz.aliyun.com/t/2524
 
+### 更新说明 ###
+
+2019-6-13 添加了支持windows日志过滤，读取指定windows日志
+
 conf/config.py说明:
 ```python
 #windows事件id
@@ -44,6 +48,12 @@ id={
 '4778':'重新连接到一台 Windows 主机的会话',
 '4779':'断开到一台 Windows 主机的会话'
 }
+
+#读取指定的日志
+login_name=''
+
+#要过滤出的事件ID,没有请留空
+login_id=''
 
 #查找出特定的端口号,没有请留空
 port=''
