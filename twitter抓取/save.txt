@@ -1,0 +1,114 @@
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/977037846988046336 时间:
+下午9:22 - 2018年3月22日
+
+Don't miss out @faradaysec demo at Arsenal station 5
+
+https://github.com/infobyte/faraday …pic.twitter.com/kP0SJYgyCL
+Thanks for the cool demo
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1137545655730098176 时间:
+下午7:23 - 2019年6月8日
+
+I've just found a simple method for COM hijacking, It works by changing registry structures for CLSID and/or Progid, and then It gives ability to Invoke COM instructions.
+PoC/
+https://gist.github.com/homjxi0e/7894be4695e5f348a749ce5ec31bd314 …pic.twitter.com/JNvgTBn2sb
+cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\prncnfg.vbs /?
+
+pic.twitter.com/JQV86RTrmZ
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1134637701729214464 时间:
+下午6:48 - 2019年5月31日
+
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/977035936151162880 时间:
+下午9:14 - 2018年3月22日
+
+https://youtu.be/xKRDo6Q6r3Y 
+https://www.ggsec.cn/comhijack&meterpreter.html …
+comhijack&meterpreterpic.twitter.com/eDs86w8G6z
+https://gist.github.com/demonsec666/e897c2dbf06a6f3d8e9f131d155426ad …
+Good article. Thank you for sharing 谢谢!
+
+
+Automated Penetration Toolkit demonstration at #BlackHatArsenal
+https://github.com/MooseDojo/apt2 pic.twitter.com/ZPHpwqQtNj
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/977035936151162880 时间:
+下午9:14 - 2018年3月22日
+
+Automated Penetration Toolkit demonstration at #BlackHatArsenal
+https://github.com/MooseDojo/apt2 pic.twitter.com/ZPHpwqQtNj
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1115890630767652864 时间:
+上午1:13 - 2019年4月10日
+
+pic.twitter.com/iKQSjQG3HT
+Nicely made in Powershell 
+Expanded on this just a little bithttps://pastebin.com/jXaz8xMx 
+
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1070698412402606086 时间:
+上午7:16 - 2018年12月6日
+
+https://github.com/demonsec666/SecistSploit …
+https://www.youtube.com/watch?v=6ddv5r-IMFw …pic.twitter.com/j3f5WTYa0R
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/977035936151162880 时间:
+下午9:14 - 2018年3月22日
+
+Automated Penetration Toolkit demonstration at #BlackHatArsenal
+https://github.com/MooseDojo/apt2 pic.twitter.com/ZPHpwqQtNj
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1070698412402606086 时间:
+上午7:16 - 2018年12月6日
+
+https://github.com/demonsec666/SecistSploit …
+https://www.youtube.com/watch?v=6ddv5r-IMFw …pic.twitter.com/j3f5WTYa0R
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976693407404863489 时间:
+下午10:33 - 2018年3月21日
+
+@ArcherySec by @anandtiwarics at #BlackHatArsenal Station 6pic.twitter.com/Nv7b1ehZ5J
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1061054447147606016 时间:
+下午4:34 - 2018年11月9日
+
+Tenable Researcher @CE2Wells  discusses a new technique for bypassing Microsoft's User Account Control through mocking trusted directories. Read more in the Tenable Tech Blog:  http://bit.ly/2Dcbc83  #TenableResearch #CyberExposure #UAC #useraccountcontrol
+pic.twitter.com/24wKCXgEWj
+youll need to export the same function names that winSAT expects to import. You can just make them empty stubs
+thx
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976691561156116480 时间:
+下午10:26 - 2018年3月21日
+
+NetRipper by @NytroRSTpic.twitter.com/pmJFD3cnnw
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1059267730627420160 时间:
+下午6:14 - 2018年11月4日
+
+CVE-2018-4280: Mach port replacement vulnerability in launchd on macOS 10.13.5 leading to local privilege escalation and SIP bypass.https://github.com/bazad/launchd-portrep …
+MAC OSX 10.12.6pic.twitter.com/ZWl6QuJp3Q
+MAC OSX 10.14.1pic.twitter.com/hP2ZHyUIp5
+Vuln has been patched in 10.14
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976678861449568256 时间:
+下午9:36 - 2018年3月21日
+
+@objective_see at #BlackHatArsenal Station 2pic.twitter.com/uRhc793q8L
+#DoNotDisturb coming soon !pic.twitter.com/FopYO65pDu
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1059266955545178112 时间:
+下午6:11 - 2018年11月4日
+
+CVE-2018-4280: Mach port replacement vulnerability in launchd on macOS 10.13.5 leading to local privilege escalation and SIP bypass.https://github.com/bazad/launchd-portrep …
+MAC OSX 10.12.6pic.twitter.com/ZWl6QuJp3Q
+MAC OSX 10.14.1pic.twitter.com/hP2ZHyUIp5
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976672986269868033 时间:
+下午9:12 - 2018年3月21日
+
+@objective_see at #BlackHatArsenal Station 2pic.twitter.com/uRhc793q8L
+#DoNotDisturb coming soon !pic.twitter.com/FopYO65pDu
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1058540162295025666 时间:
+下午7:03 - 2018年11月2日
+
+http://www.ggsec.cn/bypass-UAC-Adduser.html …pic.twitter.com/V1Z5yDH8cL
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976672986269868033 时间:
+下午9:12 - 2018年3月21日
+
+@objective_see at #BlackHatArsenal Station 2pic.twitter.com/uRhc793q8L
+#DoNotDisturb coming soon !pic.twitter.com/FopYO65pDu
+用户名:demonsec666 推特url:https://twitter.com/demonsec666/status/1053105421282496512 时间:
+下午7:07 - 2018年10月18日
+
+http://www.ggsec.cn/rid-hijack.html pic.twitter.com/Gkhar9Msaj
+sixsixsix
+用户名:HackwithGithub 推特url:https://twitter.com/HackwithGithub/status/976671179485323264 时间:
+下午9:05 - 2018年3月21日
+
+Arsenal Schedulepic.twitter.com/lNKguE2NzK
