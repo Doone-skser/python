@@ -21,12 +21,12 @@ write,flush=sys.stdout.write,sys.stdout.flush
 class FOFA:
     def __init__(self):
         self.cookies={}
-        self.cookie='<COOKIE>' #cookie
+        self.cookie='Hm_lvt_9490413c5eebdadf757c2be2c816aedf=1563949271,1563973970,1563974155,1564015292; _fofapro_ars_session=fb35f0096df22543e1ef7fdf91d606e0; referer_url=%2Fresult%3Fqbase64%3DYXBwPSLljY7kuLot5Lqk5o2i5py6Ig%253D%253D; Hm_lpvt_9490413c5eebdadf757c2be2c816aedf=1564015447' #cookie
         for c in self.cookie.split(';'):
             key,value=c.split('=',1)
             self.cookies[key]=value
 
-        usage='search.py -s [搜索的关键字] -p [页数]'
+        usage='search.py -s [txt] -p [页数]'
         opt=optparse.OptionParser(usage)
         opt.add_option('-s',dest='search',help='搜索的关键字')
         opt.add_option('-p',dest='page',help='搜索的页数')
@@ -58,7 +58,7 @@ class FOFA:
     def xc(self,rw):
         lock.acquire()
         for r in rw:
-            urls='https://fofa.so/result?page={}&qbase64={}'.format(r,bytes.decode(base64.b64encode(bytes(self.guanjianzi,encoding='utf-8'))))
+            urls='https://fofa.so/result?page={}&qbase64={}'.format(r,bytes.decode(base64.b64encode(bytes(open(self.guanjianzi,'r').read(),encoding='utf-8'))).replace('+','%2B'))
             xcs.append(gevent.spawn(self.search,urls,1))
         lock.release()
 
