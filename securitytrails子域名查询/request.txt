@@ -1,0 +1,30 @@
+url:http://ex-interface-ehk.huazhu.com/ title:早餐机 server: X-Powered-By:
+url:http://www.huazhu.com/bdapp/domain/ title:华住酒店集团 server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:http://cdn-ehk.huazhu.com/ title: server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:http://hmall-static.huazhu.com/ title:Welcome to OpenResty! server:openresty/1.13.6.2 X-Powered-By:
+url:http://ir.huazhu.com/ title:Investor Relations | Huazhu Group Limited server:nginx X-Powered-By:
+url:http://hmall-analytics.huazhu.com/index title:华住商城 - 华住会员购物首选，储值卡积分支付，更优惠 server:nginx X-Powered-By:
+url:http://stalker.huazhu.com/admin/logins/index.html title:登录 server:Apache/2.4.32 (Unix) PHP/5.6.35 X-Powered-By:PHP/5.6.35
+url:http://hmall-co.huazhu.com/login;jsessionid=6E262139C38E33069938997B8B85DD74 title:登录-华住商城 server:openresty/1.13.6.2 X-Powered-By:
+url:http://checkinadmin.huazhu.com/ title:None server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:http://hztv.huazhu.com/ title:None server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:http://test-m.huazhu.com/ title: server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:https://adfs.huazhu.com/adfs/ls/?cbcxt=&popupui=&vv=&username=&mkt=&lc=2052&wfresh=&wa=wsignin1.0&wtrealm=urn:federation:partner.microsoftonline.cn&wctx=wa%3Dwsignin1.0%26rpsnv%3D3%26ct%3D1455915527%26rver%3D6.7.6640.0%26wp%3DMCMBI%26wreply%3Dhttps:%252F%252Fportal.partner.microsoftonline.cn%252Flanding.aspx%253Ftarget%253D%25252fdefault.aspx%26lc%3D2052%26id%3D500006%26msafed%3D0%26bk%3D1455915527%26LoginOptions%3D3 title:登录 server:Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0 X-Powered-By:
+url:https://ssoauth.huazhu.com/Login.aspx?SSOLoginUrl=https%3A%2F%2Fbenefit.huazhu.com%2FcusLogin%2FssoHuazhuDone title:登录 server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:https://mail.huazhu.com/owa/auth/logon.aspx?url=https://mail.huazhu.com/owa/&reason=0 title:None server: X-Powered-By:ASP.NET
+url:https://mail.huazhu.com/owa/auth/logon.aspx?url=https://mail.huazhu.com/owa/&reason=0 title:None server: X-Powered-By:ASP.NET
+url:https://m.huazhu.com/Home/Index title:首页 server:openresty/1.13.6.2 X-Powered-By:
+url:https://m.huazhu.com/Home/Index title:首页 server:openresty/1.13.6.2 X-Powered-By:
+url:https://mail.huazhu.com/owa/auth/logon.aspx?url=https://mail.huazhu.com/owa/&reason=0 title:None server: X-Powered-By:ASP.NET
+url:https://passport.huazhu.com:443/ title:登录华住酒店;会员登录| 华住酒店官网 server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:https://hmall.huazhu.com/index title:华住商城 - 华住会员购物首选，储值卡积分支付，更优惠 server:openresty/1.13.6.2 X-Powered-By:
+url:http://wp-market.huazhu.com/ title: server:nginx X-Powered-By:
+url:https://mail.huazhu.com/owa/auth/logon.aspx?url=https://mail.huazhu.com/owa/&reason=0 title:None server: X-Powered-By:ASP.NET
+url:https://passport.huazhu.com/account/login?redirectUrl=http%3a%2f%2fassist.huazhu.com%2f%3fforAssis%3dlogin%26ssoback%3d1 title:华住会员登录—华住无线官网 server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:http://hotels.huazhu.com/city/shanghai title:上海酒店预订_上海宾馆_旅馆预订 – 华住酒店 server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:https://en.huazhu.com/ title:HUAZHU Official website - HUAZHU server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
+url:https://mail.huazhu.com/owa/auth/logon.aspx?url=https://mail.huazhu.com/owa/&reason=0 title:None server: X-Powered-By:ASP.NET
+url:https://mpassport.huazhu.com/Account/Login?redirectUrl=https%3A%2F%2Fnewactivity.huazhu.com%2Fst1%3FmodelName%3Dhttps%2525253A%2525252F%2525252Fcampaign.huazhu.com%2525252FpointsShop%2525252Findex.html%26continueTimes%3D1 title:华住会员登录—华住无线官网 server: X-Powered-By:
+url:https://mpassport.huazhu.com/Account/Login?redirectUrl=https%3A%2F%2Fnewactivity.huazhu.com%2Fst1%3FmodelName%3Dhttps%2525253A%2525252F%2525252Fcampaign.huazhu.com%2525252FpointsShop%2525252Findex.html%26continueTimes%3D1 title:华住会员登录—华住无线官网 server: X-Powered-By:
+url:https://mpassport.huazhu.com/Account/Login?redirectUrl=https%3A%2F%2Fnewactivity.huazhu.com%2Fst1%3FmodelName%3Dhttps%2525253A%2525252F%2525252Fcampaign.huazhu.com%2525252FpointsShop%2525252Findex.html%26continueTimes%3D1 title:华住会员登录—华住无线官网 server: X-Powered-By:
+url:http://en.m.huazhu.com/ title:WHERE TO server:Microsoft-IIS/7.5 X-Powered-By:ASP.NET
