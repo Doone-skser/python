@@ -1,4 +1,22 @@
 ### windows凭证捕获 ##
+环境准备：
+```
+pywin32
+pyHook
+requests
+pycom
+```
+下载好pyHook后扔入以下路径：
+```
+C:\Program Files\Python37\Lib\site-packages
+```
+
+如果需要打包成exe话，请pip安装pyinstaller
+```
+pip install pyinstaller
+pyinstaller -F <xxx.py>
+```
+
 可用于钓鱼管理员,最后脚本会将捕获到的:username和password
 
 通过请求指定的php来接收密码
