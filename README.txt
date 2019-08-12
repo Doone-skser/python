@@ -490,4 +490,9 @@ By 九世 2019/8/9
 
 windows凭证捕获用于进行对管理员的钓鱼，会弹出一个MsgBox()提升管理员"凭证过期"。然后要求输入凭证，并捕获将请求指定的php发送过去。接收username和password的php自己写
 
-By 九世界 2019/8/13
+By 九世 2019/8/13
+
+磁盘敏感文件检测，会遍历全盘并获取所有文件名。从列表定义的文件名来判断是否有敏感文件。
+注意：由于当时打包exe的时候用的不是最新的pyinstaller，在windows 10或windows server 2012或以上会出现问题。此时需要，你安装新版的pyinstaller来进行重新打包，新版的pyinstaller会将windows10的那些dll也打包上去，从而修复了旧版的pyinstaller DLL缺少或者错误的问题
+
+By 九世 2019/8/13
